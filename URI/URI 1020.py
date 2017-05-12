@@ -3,15 +3,15 @@ def idade_dias(dia,ano):
     return()
 
 def main():
-    dias = int(input())
-    ano = int(dias / 365)
-    aux = dias % 365
+    dia = int(input())
+    ano = int(dia / 365)
+    aux = dia % 365
 
-    meses = int(aux / 30)
-    dias = aux % 30
+    mes = int(aux / 30)
+    dia = aux % 30
 
-    print("%i anos(s)" % ano,end='\n')
-    print("%i mes(es)" % meses,end='\n')
-    print("%i dia(s)" %dias,end='\n')
+    print("%i ano(s)"% ano,end='\n')
+    print("%i mes(es)"% mes,end='\n')
+    print("%i dia(s)"%dia,end='\n')
 if __name__ == '__main__':
     main()
